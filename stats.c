@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c> 
+ * @brief <Maximum, minimum, mean, and median of the data set>
  *
- * <Add Extended Description Here>
+ * <You are to write a couple of functions that can analyze an array of unsigned char data items and report analytics on the maximum, minimum, mean, and median of the data set. In addition, you will need to reorder this data set from large to small. All statistics should be rounded down to the nearest integer. After analysis and sorting is done, you will need to print that data to the screen in nicely formatted presentation. >
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Javier Jacal>
+ * @date <10/16/2021 >
  *
  */
 
@@ -37,7 +37,35 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
+  //print_statistics(test,sizeof(test));
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char *data,unsigned int length) /*- A function that prints the statistics of an array including minimum, maximum, mean, and median.*/
+{
+}
+void print_array(unsigned char *data,unsigned int length) /*-  Given an array of data and a length, prints the array to the screen*/
+{
+
+}
+unsigned char find_median(unsigned char *data,unsigned int length)/* - Given an array of data and a length, returns the median value*/
+{
+     return 0;
+}
+unsigned char find_mean(unsigned char *data,unsigned int length) /*-  Given an array of data and a length, returns the mean*/
+{
+     return 0;
+}
+unsigned char find_maximum(unsigned char *data,unsigned int length)/* -  Given an array of data and a length, returns the maximum*/
+{
+     return 0;
+}
+unsigned char find_minimum(unsigned char *data,unsigned int length) /*-  Given an array of data and a length, returns the minimum*/
+{
+   return 0;
+}
+void sort_array(unsigned char *data,unsigned int length)/*- Given an array of data and a length, sorts the array from largest to smallest.  (The zeroth Element should be the largest value, and the last data(n-1) should be the smallest value. )*/
+{
+
+}
